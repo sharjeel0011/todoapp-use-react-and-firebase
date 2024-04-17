@@ -1,0 +1,117 @@
+
+.hadingFor{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  gap: 20px;
+} 
+.nav {
+    background-color: #333; /* Set background color */
+    color: white; /* Set text color */
+    padding: 10px; /* Add padding */
+    display: flex; /* Use flexbox for layout */
+    /* justify-content: space-evenly;  */
+    justify-content: space-between;
+  }
+  
+  .hadingFor {
+    margin: 0 10px; /* Add margin to separate items */
+  }
+  
+  /* Style links */
+  .Link {
+    color: white; /* Set link text color */
+    text-decoration: none; 
+   
+   
+    /* Remove default underline */
+  }
+  
+  /* Hover effect for links */
+  .Link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  /* .todohead{
+
+  } */
+  /* .todoapp{
+   width: auto;
+   height: auto;
+   padding: 2em;
+ margin: auto;
+   
+  } */
+ 
+  .todoapp {
+    margin: 20px auto;
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .todohead {
+    margin-bottom: 20px;
+  }
+  
+  .todohead h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #333;
+    text-shadow: 15px 15px 15px 1px green;
+   display: flex;
+   justify-content: center;
+  }
+  
+  .todohead input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .todohead button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .todohead button[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  .todohead button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 5PX;
+  }
+  
+  ul li button {
+    padding: 4px 8px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  ul li button:hover {
+    background-color: #c82333;
+  }
